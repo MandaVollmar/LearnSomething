@@ -6,7 +6,6 @@ html {
 }
 
 nav {
-    align-content: center;
     max-width: 960px;
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
@@ -37,4 +36,10 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
     background: rgba(255, 255, 255, 0.1);
     color: rgba(0, 35, 122, 0.7);
+}
+
+img{
+    align-content: center;
+    width: 1000px;
+    height: 500px;
 }

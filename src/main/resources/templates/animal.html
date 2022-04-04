@@ -2,17 +2,38 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/animal.css}" />
+
     <title>Animal Fact</title>
 </head>
+<nav>
+    <ul>
+        <li>
+            <a th:href="@{/home}">Home</a>
+        </li>
+        <li>
+            <a th:href="@{/fun}">Fun Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/animal}">Animal Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/useless}">Useless Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/video}">Video Facts</a>
+        </li>
+    </ul>
+</nav>
 <body>
 <p th:text="${'Name: ' + animalName}">Name</p>
-<p th:text="${animalLatin}">Latin Name</p>
-<p th:text="${animalType}">Type</p>
-<p th:text="${lifespan}">Lifespan</p>
-<p th:text="${habitat}">Habitat</p>
-<p th:text="${diet}">Diet</p>
-<p th:text="${geoRange}">Geo Range</p>
-<img th:src="${image}">Image</img>
+<p th:text="${'Latn Name: ' + animalLatin}">Latin Name</p>
+<p th:text="${'Type' +animalType}">Type</p>
+<p th:text="${'Lifespan: ' +lifespan}">Lifespan</p>
+<p th:text="${'Habitat' +habitat}">Habitat</p>
+<p th:text="${'Diet' +diet}">Diet</p>
+<p th:text="${'Preferred Landscape: ' +geoRange}">Geo Range</p>
+<img th:src="${image}"></img>
 
 
 </body>

@@ -2,8 +2,29 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/fun.css}" />
+
     <title>Fun Fact</title>
 </head>
+<nav>
+    <ul>
+        <li>
+            <a th:href="@{/home}">Home</a>
+        </li>
+        <li>
+            <a th:href="@{/fun}">Fun Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/animal}">Animal Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/useless}">Useless Facts</a>
+        </li>
+        <li>
+            <a th:href="@{/video}">Video Facts</a>
+        </li>
+    </ul>
+</nav>
 <body>
 <p th:text="${funFact}">fact</p>
 

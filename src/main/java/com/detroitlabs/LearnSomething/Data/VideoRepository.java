@@ -16,7 +16,8 @@ public class VideoRepository {
             new Videos("https://www.youtube.com/embed/cr4ncMR5EVQ"),
             new Videos("https://www.youtube.com/embed/FJ3N_2r6R-o"),
             new Videos("https://www.youtube.com/embed/RMoh5hZAaZk"),
-            new Videos("https://www.youtube.com/embed/c7Iaz_r2t-g")
+            new Videos("https://www.youtube.com/embed/c7Iaz_r2t-g"),
+            new Videos("https://www.youtube.com/embed/c3VtlcfwGbo")
     );
 
     public List<Videos> getALL_VIDEOS() {

@@ -1,6 +1,6 @@
 package com.detroitlabs.LearnSomething.Service;
 
-import com.detroitlabs.LearnSomething.Model.AnimalFacts;
+import com.detroitlabs.LearnSomething.Data.AnimalFacts;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 

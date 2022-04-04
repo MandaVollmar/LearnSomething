@@ -1,4 +1,4 @@
-package com.detroitlabs.LearnSomething.Model;
+package com.detroitlabs.LearnSomething.Data;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -6,14 +6,16 @@ import org.springframework.stereotype.Component;
 
 @Component
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class FunFacts {
-    private String fact;
+public class UselessFacts {
+    private String text;
+
     @JsonProperty
-    public String getFact() {
-        return fact;
+    public String getText() {
+        return text;
     }
+
     @JsonProperty
-    public void setFact(String fact) {
-        this.fact = fact;
+    public void setText(String text) {
+        this.text = text;
     }
 }

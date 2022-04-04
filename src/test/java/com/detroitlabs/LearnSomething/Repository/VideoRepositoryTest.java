@@ -11,9 +11,9 @@ class VideoRepositoryTest {
     void shouldReturnRandomVideo() {
         VideoRepository testUrl = new VideoRepository();
 
-        String result = testUrl.getRandomVideo("https://www.youtube.com/embed/5TTOE9QPY_4");
+        String result = testUrl.getRandomVideo();
 
-        assertEquals(result, "https://www.youtube.com/embed/5TTOE9QPY_4");
+        assertEquals(result, "https://www.youtube.com/embed/cr4ncMR5EVQ");
 
     }
 }

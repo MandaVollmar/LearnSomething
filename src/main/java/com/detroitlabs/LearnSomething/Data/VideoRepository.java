@@ -26,7 +26,7 @@ public class VideoRepository {
     }
 
     public String getRandomVideo() {
-        Videos randVideo = ALL_VIDEOS.get(random.nextInt(2));
+        Videos randVideo = ALL_VIDEOS.get(random.nextInt(5));
         return randVideo.getUrl();
 
     }
